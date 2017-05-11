@@ -48,7 +48,7 @@ const schemeIdURI = 'urn:uuid:' + uuid;
 function KeySystemPlayReady() {
 
     let instance;
-    let messageFormat = 'utf16';
+    let messageFormat = 'utf8';
 
     function getRequestHeadersFromMessage(message) {
         var msg,
