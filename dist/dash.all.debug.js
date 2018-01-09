@@ -27086,7 +27086,7 @@ var schemeIdURI = 'urn:uuid:' + uuid;
 function KeySystemPlayReady() {
 
     var instance = undefined;
-    var messageFormat = 'utf16';
+    var messageFormat = 'utf8';
 
     function getRequestHeadersFromMessage(message) {
         var msg, xmlDoc;
